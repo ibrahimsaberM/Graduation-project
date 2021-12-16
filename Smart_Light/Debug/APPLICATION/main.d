@@ -1,0 +1,31 @@
+APPLICATION/main.o APPLICATION/main.o: ../APPLICATION/main.c \
+  ../APPLICATION/../LIB/STD_TYPES/STD_TYPES.h \
+  ../APPLICATION/../LIB/BIT_MATH/BIT_MATH.h \
+  ../APPLICATION/../MCAL/DIO/DIO_interface.h \
+  ../APPLICATION/../MCAL/IIC/I2C_interface.h \
+  ../APPLICATION/../MCAL/ADC/ADC_interface.h \
+  ../APPLICATION/../MCAL/PWM/PWM_interface.h \
+  ../APPLICATION/../HAL/LCD/LCD_interface.h \
+  ../APPLICATION/../HAL/EEPROM/EEPROM_interface.h \
+  ../APPLICATION/../HAL/RTC_DS1307/RTC_interface.h \
+  ../APPLICATION/../HAL/LDR/LDR_interface.h
+
+../APPLICATION/../LIB/STD_TYPES/STD_TYPES.h:
+
+../APPLICATION/../LIB/BIT_MATH/BIT_MATH.h:
+
+../APPLICATION/../MCAL/DIO/DIO_interface.h:
+
+../APPLICATION/../MCAL/IIC/I2C_interface.h:
+
+../APPLICATION/../MCAL/ADC/ADC_interface.h:
+
+../APPLICATION/../MCAL/PWM/PWM_interface.h:
+
+../APPLICATION/../HAL/LCD/LCD_interface.h:
+
+../APPLICATION/../HAL/EEPROM/EEPROM_interface.h:
+
+../APPLICATION/../HAL/RTC_DS1307/RTC_interface.h:
+
+../APPLICATION/../HAL/LDR/LDR_interface.h:
